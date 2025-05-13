@@ -53,3 +53,10 @@
     margin-top: 6%;
     font-size: 45px;
 }
+
+@media (max-width: 1068px) {
+  #PartieUn {
+    margin-bottom: 25%;
+  }
+}
+

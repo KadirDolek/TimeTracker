@@ -14,13 +14,13 @@ export default function MainCard({ onTimeframeChange }){
             <img src="./src/assets/images/image-jeremy.png" alt="" />
             <span id='span'>Report for <p id='zzz'>Jeremy Robson</p></span>
             <div id='PartieUnBis'>
-                <p 
+                <p style={{marginBottom:'-20px'}}
                     onClick={() => handleClick('daily')}
                     className={activeTimeframe === 'daily' ? 'active' : ''}
                 >
                     Daily
                 </p>
-                <p 
+                <p style={{marginBottom:'-20px'}}
                     onClick={() => handleClick('weekly')}
                     className={activeTimeframe === 'weekly' ? 'active' : ''}
                 >
