@@ -8,7 +8,7 @@ function Card({ donnee, timeframe }) {
   return (
     <div className={cardClass}>
       <img 
-        src={`./src/assets/images/icon-${donnee.title.toLowerCase().replace(' ', '-')}.svg`}
+        src={`./src/assets/images/icon-${donnee.title.replace(' ', '-')}.svg`}
         alt={donnee.title}
         className="card-icon"
       />
