@@ -16,7 +16,37 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  width: 90%;
   min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+#PartieUn{
+  display: grid;
+  width: 450px;
+  height: 80vh;
+  border: solid 1px white;
+  border-radius: 25px;
+  background-color: rgb(87, 70, 234);
+}
+#PartieUnBis{
+  width: 520px;
+  height: 35vh;
+  border: solid 1px white;
+  border-radius: 25px;
+  display: grid;
+  align-self: end;
+  background-color: rgb(29, 32, 75);
+}
+#PartieDeux{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+

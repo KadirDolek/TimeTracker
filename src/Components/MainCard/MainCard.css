@@ -1,0 +1,51 @@
+#PartieUn{
+  display: grid;
+  width: 440px;
+  height: auto;
+  border: solid 1px white;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
+  background-color: rgb(87, 70, 234);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+#PartieUnBis{
+  width: 440px;
+  height: 35vh;
+  border-radius: 25px;
+  display: grid;
+  align-self: end;
+  background-color: rgb(29, 32, 75);
+}
+#PartieUn img{
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid 3.5px white;
+    border-radius: 50%;
+}
+#PartieUnBis p{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    font-size: 20px;
+    opacity: 80%;
+    transition: opacity 0.3s ease;
+}
+#PartieUnBis p:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+#PartieUnBis p.active {
+    color: white;
+    opacity: 100%;
+}
+#span{
+    margin-top: 80px;
+}
+#zzz{
+    margin-top: 8%;
+    font-size: 35px;
+}
