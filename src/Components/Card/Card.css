@@ -27,7 +27,7 @@
   height: 70px;
   z-index: 1;
 }
-
+ 
 .work { background: hsl(15, 100%, 70%); }
 .play { background: hsl(195, 74%, 62%); }
 .study { background: hsl(348, 100%, 68%); }
