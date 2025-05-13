@@ -20,7 +20,7 @@ export default function MainCard({ onTimeframeChange }){
                 >
                     Daily
                 </p>
-                <p style={{marginBottom:'-20px'}}
+                <p style={{marginBottom:'-20px'}} 
                     onClick={() => handleClick('weekly')}
                     className={activeTimeframe === 'weekly' ? 'active' : ''}
                 >

@@ -4,12 +4,12 @@ import React from 'react'
 function Card({ donnee, timeframe }) {
   const currentData = donnee.timeframes[timeframe];
   const cardClass = `carte ${donnee.title.toLowerCase().replace(' ', '-')}`;
-  
+
   return (
     <div className={cardClass}>
       <img 
         src={`./src/assets/images/icon-${donnee.title.replace(' ', '-')}.svg`}
-        alt={donnee.title}
+        alt=""
         className="card-icon"
       />
       <div className='secondBg'>
