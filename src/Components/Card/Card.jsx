@@ -1,6 +1,5 @@
 import './Card.css';
 import React from 'react';
-// Importez directement les images dans votre composant
 import exerciseIcon from '/src/assets/images/icon-exercise.svg';
 import playIcon from '/src/assets/images/icon-play.svg';
 import selfCareIcon from '/src/assets/images/icon-self-care.svg';
@@ -8,7 +7,6 @@ import socialIcon from '/src/assets/images/icon-social.svg';
 import studyIcon from '/src/assets/images/icon-study.svg';
 import workIcon from '/src/assets/images/icon-work.svg';
 
-// Création d'un objet qui mappe les titres aux images
 const iconMap = {
   'exercise': (`${exerciseIcon}`),
   'play': (`${playIcon}`),
