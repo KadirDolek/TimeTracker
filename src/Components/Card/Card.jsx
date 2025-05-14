@@ -1,7 +1,7 @@
 import './Card.css';
 import React from 'react';
 // Importez directement les images dans votre composant
-import exerciseIcon from '/src/assets/images/icon-exercise.svg';
+import exerciseIcon from '../../assets/images/icon-exercise.svg';
 import playIcon from '/src/assets/images/icon-play.svg';
 import selfCareIcon from '/src/assets/images/icon-self-care.svg';
 import socialIcon from '/src/assets/images/icon-social.svg';
@@ -22,7 +22,6 @@ function Card({ donnee, timeframe }) {
   const currentData = donnee.timeframes[timeframe];
   const cardClass = `carte ${donnee.title.toLowerCase().replace(' ', '-')}`;
   
-  // Récupérer la bonne icône en fonction du titre
   const iconKey = donnee.title.toLowerCase();
   const icon = iconMap[iconKey];
 
