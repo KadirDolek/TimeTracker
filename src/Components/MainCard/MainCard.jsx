@@ -1,5 +1,6 @@
 import './MainCard.css'
 import React, { useState } from 'react'
+import Photo from "../../assets/images/image-jeremy.png"
 
 export default function MainCard({ onTimeframeChange }){
     const [activeTimeframe, setActiveTimeframe] = useState('daily');
@@ -11,7 +12,7 @@ export default function MainCard({ onTimeframeChange }){
 
     return(
         <div id='PartieUn'>
-            <img src="./src/assets/images/image-jeremy.png" alt="" />
+            <img src={Photo} alt="" />
             <span id='span'>Report for <p id='zzz'>Jeremy Robson</p></span>
             <div id='PartieUnBis'>
                 <p style={{marginBottom:'-20px'}}
