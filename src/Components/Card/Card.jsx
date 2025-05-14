@@ -1,21 +1,21 @@
 import './Card.css';
 import React from 'react';
 // Importez directement les images dans votre composant
-import exercise from '/images/icon-exercise.svg';
-import play from '/images/icon-play.svg';
-import selfCare from '/images/icon-self-care.svg';
-import social from '/images/icon-social.svg';
-import study from '/images/icon-study.svg';
-import work from '/images/icon-work.svg';
+import exerciseIcon from '/src/assets/images/icon-exercise.svg';
+import playIcon from '/src/assets/images/icon-play.svg';
+import selfCareIcon from '/src/assets/images/icon-self-care.svg';
+import socialIcon from '/src/assets/images/icon-social.svg';
+import studyIcon from '/src/assets/images/icon-study.svg';
+import workIcon from '/src/assets/images/icon-work.svg';
 
 // Création d'un objet qui mappe les titres aux images
 const iconMap = {
-  'exercise': (`${exercise}`),
-  'play': (`${play}`),
-  'self care':(`${selfCare}`) ,
-  'social':(`${social}`) ,
-  'study':(`${study}`),
-  'work': (`${work}`)
+  'exercise': (`${exerciseIcon}`),
+  'play': (`${playIcon}`),
+  'self care':(`${selfCareIcon}`) ,
+  'social':(`${socialIcon}`) ,
+  'study':(`${studyIcon}`),
+  'work': (`${workIcon}`)
 };
 
 function Card({ donnee, timeframe }) {
